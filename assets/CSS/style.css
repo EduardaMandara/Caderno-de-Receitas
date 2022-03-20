@@ -6,7 +6,7 @@ body {
 
 header {
     align-items: center;
-    background: #ffbad7;
+    background: #ffa149;
     display: flex;
     justify-content: space-between;
     padding-left: 2rem;
@@ -39,4 +39,9 @@ header nav ul li a#ativo {
 
 header nav ul li a:hover {
     text-decoration: underline;
+}
+
+.sobre {
+    text-align: center;
+    color: firebrick
 }
