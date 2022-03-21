@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Dancing Script', 'cursive';
+    background-color: burlywood;
 }
 
 header {
@@ -70,3 +71,25 @@ header nav ul li a:hover {
     color: #ffa149;
 }
 /* Fim Container + Banner1 + Sobre */
+
+/* Campo de busca */
+#Busca{
+    background-color:#E0EEEE;
+    border:solid 2px brown;
+    border-radius:10px;
+    width: 200px;
+    height:20px;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    padding-inline-end: 5px;
+    font-size:15px;
+    border:none;
+    height:20px;
+    width:190px;
+}   
+/* Fim Campo de busca */
+
