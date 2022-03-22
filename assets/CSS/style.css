@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono&family=Roboto:wght@100&family=Smooch+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body {
-    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Montserrat', sans-serif;
     background-color: burlywood;
 }
 
+/* Navegação | Cabeçalho */
 header {
     align-items: center;
     background: #ffa149;
@@ -41,6 +42,7 @@ header nav ul li a#ativo {
 header nav ul li a:hover {
     text-decoration: underline;
 }
+/* Final Navegação | Cabeçalho */
 
 /* Container + Banner1 + Sobre */
 .container {
@@ -48,6 +50,7 @@ header nav ul li a:hover {
   }
   
 #banner1 {
+    margin-bottom: 25px;
     float: left;
     width: 100%;
     height: 300px;
@@ -56,7 +59,7 @@ header nav ul li a:hover {
 
 #sobre {
     position: absolute;
-    font-size: 32px;
+    font-size: 26px;
     left: 50px;
     top: 90px;
     color: #ffa149;
@@ -64,7 +67,7 @@ header nav ul li a:hover {
 
 #sobre2 {
     position: absolute;
-    font-size: 32px;
+    font-size: 26px;
     left: 160px;
     right: 120px;
     top: 160px;
@@ -85,7 +88,7 @@ header nav ul li a:hover {
     float:left;
     background-color:transparent;
     padding-left:5px;
-    padding-inline-end: 5px;
+    padding-bottom: 5px;
     font-size:15px;
     border:none;
     height:20px;
@@ -93,3 +96,64 @@ header nav ul li a:hover {
 }   
 /* Fim Campo de busca */
 
+/* Main */
+main h1 {
+    margin-top: 20px;
+    width: auto;
+    padding: 50px;
+}
+
+    /* Receita 1 - Bolo de Cenoura */
+.receita-1 img {
+    margin: 20px;
+    display: block;
+    width: 30%;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.txt-bolo-cenoura {
+    position: absolute;
+    font-size: 22px;
+    left: 460px;
+    top: 500px;
+}
+    
+    /* Receita 2 - Caldo Verde */
+.receita-2 img {
+    margin: 20px;
+    display: block;
+    width: 30%;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.txt-caldo-verde {
+    position: absolute;
+    font-size: 22px;
+    left: 460px;
+    top: 720px;
+}
+/* Final Main */
+
+/* Footer */
+.footer {
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: #808080;
+}
+
+.redes {
+    
+}
+
+/* Final Footer */
