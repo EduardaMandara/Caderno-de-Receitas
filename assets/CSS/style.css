@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: burlywood;
+    background-color: #c2c2c2;
 }
 
 /* Navegação | Cabeçalho */
@@ -62,7 +62,7 @@ header nav ul li a:hover {
     font-size: 26px;
     left: 50px;
     top: 90px;
-    color: #ffa149;
+    color: #bebebe;
 }
 
 #sobre2 {
@@ -71,7 +71,7 @@ header nav ul li a:hover {
     left: 160px;
     right: 120px;
     top: 160px;
-    color: #ffa149;
+    color: #bebebe;
 }
 /* Fim Container + Banner1 + Sobre */
 
