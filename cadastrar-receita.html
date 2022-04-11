@@ -14,6 +14,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <link rel="stylesheet" href="./assets/CSS/normalize.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <link rel="stylesheet" href="./assets/CSS/cadastrar-receita.css">
 
     <link href="./assets/IMG/logo/Cookbook__#4c2c69.png" rel="icon">
@@ -23,18 +24,14 @@
 
 <body>
     <!-- Cabeçalho -->
-
     <header class="header">        
-        <nav>
-            <div>
-                <img src="./assets/IMG/logo/Cookbook__#4c2c69.png" alt="">
-                <ul>
-                    <li><a id="ativo" href="receitas.html"> Receitas </a></li>
-                    <li><a id="ativo" href="cadastrar-receita.html"> Cadastrar Receita </a></li>
-                    <div id="Busca">
-                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                    </div>
-                </ul>
+        <img src="./assets/IMG/logo/Cookbook__#4c2c69.png" alt="">
+
+        <nav class="menu__item">
+            <div class="menu__item">
+                <a class="menu__item" href="./index.html"> Home </a>
+                <a class="menu__item" href="./receitas.html"> Recipes </a>
+                <a class="menu__item" href="./cadastrar-receita.html"> Register Recipes </a>  
             </div>
         </nav>
     </header>
@@ -42,7 +39,16 @@
     
     <!-- Container -->
     <section class="container__cadastrar-receita">
-        <h1> Cadastrar Receitas </h1>
+        <h1> Register Recipes </h1>
+
+        <form action="">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputRecipeName"> Recipe Name </label>
+                    <input type="text" class="form-control" id="inputRecipeName" placeholder="Recipe">
+                  </div>
+            </div>
+        </form>
     </section>
 
     <section>
