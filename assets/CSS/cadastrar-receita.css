@@ -68,38 +68,7 @@ header nav ul li a:hover {
 }
 /* Final Navegação | Cabeçalho */
 
-/* Main */
-main h1 {
-    margin-top: 20px;
-    width: auto;
-    padding: 50px;
-}
 
-    /* Receita 1 - Bolo de Cenoura */
-.img__receita img {
-    margin: 20px;
-    display: block;
-    width: 30%;
-    min-height: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.txt-bolo-cenoura {
-    position: absolute;
-    font-size: 22px;
-    left: 460px;
-    top: 500px;
-}
-
-.txt-caldo-verde {
-    position: absolute;
-    font-size: 22px;
-    left: 460px;
-    top: 720px;
-}
-/* Final Main */
 
 /* Footer */
 .footer {

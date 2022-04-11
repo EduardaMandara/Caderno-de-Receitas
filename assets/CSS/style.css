@@ -2,13 +2,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #c2c2c2;
+    background-color: #95a3b3;
 }
 
 /* Navegação | Cabeçalho */
 header {
     align-items: center;
-    background: #0077ff;
+    background: #abfaa9;
     display: flex;
     text-decoration: none;
     justify-content: space-between;
@@ -120,53 +120,11 @@ header nav ul li a:hover {
 }   
 /* Fim Campo de busca */
 
-/* Main */
-main h1 {
-    margin-top: 20px;
-    width: auto;
-    padding: 50px;
-}
 
-    /* Receita 1 - Bolo de Cenoura */
-.receita-1 img {
-    margin: 20px;
-    display: block;
-    width: 30%;
-    min-height: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.txt-bolo-cenoura {
-    position: absolute;
-    font-size: 22px;
-    left: 460px;
-    top: 500px;
-}
-    
-    /* Receita 2 - Caldo Verde */
-.receita-2 img {
-    margin: 20px;
-    display: block;
-    width: 30%;
-    min-height: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.txt-caldo-verde {
-    position: absolute;
-    font-size: 22px;
-    left: 460px;
-    top: 720px;
-}
-/* Final Main */
 
 /* Footer */
 .footer {
-    background-color: #333333;
+    background-color: #42253b;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
